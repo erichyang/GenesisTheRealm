@@ -1,5 +1,5 @@
 import os
-dir = 'images/7/'
+dir = 'images/1/'
 filenames = [x for x in os.listdir(dir) if x[-5:] == ".webp"]
 for fn in filenames:
     print(f"""<div class="col-4"><span class="image fit"><img src="{dir}{fn}" alt=""/></span></div>""")
